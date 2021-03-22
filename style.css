@@ -7,14 +7,30 @@ body {
 	display: flex;
 	padding: 30px;
 	margin: 30px;
-	background: #aebbc1
+	background: #aebbc1;
+	border-radius: 20px;
 }
 
 .assignment img {
 	width: 500px;
-	padding: 30px;
+	margin: 30px;
+	border: 5px solid 
 }
+
+.assignment img:hover {
+	border: 5px dashed #660066;
+}
+
 h1 {
 	color: white;
 	text-align:center;
+}
+
+a {
+	text-decoration: none;
+	color: #0C7C31;
+}
+
+a:hover {
+	color: #660066;
 }
